@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Node.js DevOps Test App</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+        .card {
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .api-endpoint {
+            background-color: #f5f5f5;
+            padding: 10px;
+            border-radius: 3px;
+            font-family: monospace;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Node.js DevOps Test App</h1>
+    </header>
+    
+    <div class="card">
+        <h2>Welcome to our test application!</h2>
+        <p>This is a simple Node.js application created for learning DevOps practices with Jenkins.</p>
+    </div>
+    
+    <div class="card">
+        <h2>API Endpoints</h2>
+        <p>This application provides the following API endpoints:</p>
+        
+        <h3>Root Endpoint</h3>
+        <div class="api-endpoint">GET /api</div>
+        <p>Returns a welcome message in JSON format.</p>
+        
+        <h3>Health Check</h3>
+        <div class="api-endpoint">GET /api/health</div>
+        <p>Returns the health status of the application.</p>
+    </div>
+    
+    <div class="card">
+        <h2>About This Project</h2>
+        <p>This project demonstrates:</p>
+        <ul>
+            <li>Setting up a Node.js application</li>
+            <li>Implementing basic API endpoints</li>
+            <li>Testing with Jest</li>
+            <li>CI/CD with Jenkins</li>
+            <li>Containerization with Docker</li>
+        </ul>
+    </div>
+</body>
+</html>
